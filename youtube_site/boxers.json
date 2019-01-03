@@ -1,0 +1,10 @@
+$posts =
+    {[
+        "id": 0,
+        "name": "Mike Tyson",
+        "Nickname": "Iron",
+        "Status": "Inactive",
+        "Weight": 206,
+        "Record": "56-5"
+        "src": "https://www.youtube.com/embed/R2RxpsS639I"
+    ]}

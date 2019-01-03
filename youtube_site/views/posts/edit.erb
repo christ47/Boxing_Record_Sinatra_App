@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Edit text webpage</h1>
+    <br>
+          <a href="/<%= @post[:id]%>/edit">Edit</a>
+    <p> This is edit page for post <%= @post[:id]%></p>
+    <%# <input type="textarea" name="edit area" value=" "> %>
+    <textarea name="name" rows="8" cols="80"><%= 
+    @post[:title] %>
+    <%= @post[:body] %>
+  </textarea>
+  </body>
+</html>

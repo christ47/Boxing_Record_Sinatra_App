@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @Hometitle %></title>
+  </head>
+  <body>
+    <% @posts.each do |posts| %>
+         <div>
+           <h1> <%= posts[:name]%></h1>
+           <br>
+           <h1> Nickanme: <%=posts[:nickname]%></h1>
+           <h2><a href="/<%= posts[:id] %>"><%= posts[:name] %></a></h2>
+
+
+         </div>
+       <% end %>
+
+    <%# <h1> Welcome to my Homepage</h1> %>
+  </body>
+</html>
